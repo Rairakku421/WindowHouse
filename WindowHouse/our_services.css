@@ -1,0 +1,64 @@
+.title--name{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; 
+    font-family: "Ubuntu Mono";
+}
+
+.service-titel{
+    margin-top: 68px;
+    margin-bottom: 48px;
+}
+
+.service--container{
+    /*background-color:#f2f2f2;*/
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.service--box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px 10px;
+    justify-content: center;
+}
+
+.box--service {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    padding: 55px 50px 32px;
+    box-sizing: border-box;
+}
+
+.box--service.service-img1{
+    background-image: url(./img/our_services/img_background_instal.png);
+}
+.box--service.service-img2{
+    background-image: url(./img/our_services/img_background_balcony.png);
+}
+.box--service.service-img3{
+    background-image: url(./img/our_services/img_background_glazing.png);
+}
+.box--service.service-img4{
+    background-image: url(./img/our_services//img_background_cottage.png);
+}
+
+.box--up {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.box--info {
+    font-size: 24px;
+    font-family: "Ubuntu Mono";
+}
+
+.box--down {
+    margin-top: 32px;
+    font-size: 16px;
+    font-family: "Ubuntu Mono";
+}

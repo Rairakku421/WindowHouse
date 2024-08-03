@@ -6,7 +6,7 @@ width: 100%;
 .order--container{
         display: flex;
     justify-content: center;
-    background-image: url(/img/form/background.png);
+    background-image: url(./img/form/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 97px;

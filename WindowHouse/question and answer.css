@@ -1,0 +1,77 @@
+.qna{
+    background-color: #EF7F1A;
+    padding-left: 101px;
+    padding-right: 101px;
+    padding-bottom: 65px;
+}
+
+
+.name_question{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+}
+
+
+details {
+    background-color: #EEEEF3;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+details:hover{
+    color: #EF7F1A;
+}
+
+
+details:hover .arrow{
+    color: #EF7F1A;
+    content: url(./img/protfolio/arrow_orange.svg);
+}
+
+summary{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 19px;
+}
+
+
+details > summary {
+    list-style: none;
+}
+
+
+details[open]  {
+    background-color: #EEEEF3;
+}
+
+
+details[open] .arrow{
+    background-color: #EEEEF3;
+    transform: rotate(180deg);
+}
+
+
+.answer{
+    font-family: "Ubuntu Mono";
+    font-size: 16px;
+    padding-left: 19px;
+}
+
+
+.arrow{
+    position: absolute;
+    right: 30px;
+}
+
