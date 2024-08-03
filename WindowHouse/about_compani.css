@@ -1,0 +1,129 @@
+.company_container{
+    /*background-color:#f2f2f2;*/
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.company_title{
+    margin-top: 97px;
+    margin-bottom: 32px;
+}
+
+.company_info{
+    display: flex;
+    justify-content: space-between;
+    width: 720px; /* было 60%*/
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+.btn_company_up{
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    font-family: "Ubuntu Mono";
+    padding: 9px 25px 9px 25px;
+}
+
+.btn_company_up:hover{
+    background-color: #EF7F04;
+    color: white;
+}
+
+
+.card_company{
+    display: flex;
+    justify-content: center;
+}
+
+.card_left{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    border-radius: 3px;
+}
+
+.card_img{
+    display: flex;
+    justify-content: center;
+    width: 114px;
+    height: 100px;
+}
+
+.card_right{
+    display: flex;   
+}
+
+
+.logo_in_info_company{
+    margin-top: 46px;
+    margin-left: 50px;
+}
+
+.img_in_info_company{
+    background-color:#ffffff;
+    border-radius: 3px;
+}
+.info_about_company{
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 52px;
+    margin-top: 61px;
+}
+
+.block_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 107px 12px ;
+    margin-top: 68px;
+}
+
+.card_inner{
+    display: flex;
+    justify-content: center;
+}
+
+.card_info{
+    margin-left: 23px;
+}
+.card_info_inner{
+    line-height: 25px;   
+}
+
+.card_indent_info{
+    line-height: 40px;
+}
+
+.company_org_btd{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Ubuntu Mono";
+    background-color:#EF7F04;
+    margin-bottom: 28,5px;
+    margin-top: 28,5px;
+    padding: 18px 32px 18px 23px;
+    margin: 0 auto;
+    margin-top: 82px;
+    margin-bottom: 88px;
+}
+
+.img_btn_company{
+    margin-right: 28px;
+}
+
+.company_push:visited {
+    color: white;
+}
+
+.company_push:hover {
+    color:white;
+}

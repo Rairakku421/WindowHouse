@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    background-color:#2F2F51;
+    margin-top: 75px;
+    
+}
+
+
+.footer-inner{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+
+.inner-info{
+    display: flex;
+    align-items: center;
+}
+
+
+.text-info{
+    font-size: 16px;
+    padding-left: 22px;
+    color: white;
+}
+
+
+.info-politics{
+    display: flex;
+    font-size: 14px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+
+.text-politics{
+    padding-left: 15px;
+}
+
+
+.text-politics-style:visited{
+    color: white;
+}
+
+
+.text-politics-style:link{
+    color: white;
+}
+
+
+.text-politics-style:hover{
+    color: #4B67AF
+}
